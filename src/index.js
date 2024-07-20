@@ -7,6 +7,5 @@ const container = document.querySelector("#container");
 const root = createRoot(container);
  
 root.render(
-  <MenuContainer/>,
-  document.querySelector("#container")
+  <MenuContainer/>
 );

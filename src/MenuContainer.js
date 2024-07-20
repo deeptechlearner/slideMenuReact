@@ -11,7 +11,6 @@ class MenuContainer extends Component {
        
         this.toggleMenu = this.toggleMenu.bind(this);
         this.handleMouseDown = this.handleMouseDown.bind(this);
-    this.toggleMenu = this.toggleMenu.bind(this);
       }
       handleMouseDown(e) {
         this.toggleMenu();
@@ -26,6 +25,7 @@ class MenuContainer extends Component {
         });
       }
   render() {
+    console.log("Rendering: MenuContainer");
     return (
       <div>
         <MenuButton handleMouseDown={this.handleMouseDown}/>
